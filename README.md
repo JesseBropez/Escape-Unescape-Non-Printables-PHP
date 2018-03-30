@@ -3,8 +3,8 @@ A few functions to help escaping non-printable characters in PHP.
 
 Call like so:
 
-$escaped = EscapeNonASCII($string);
+$escaped = Escape($string);
 
-$unescaped = UnescapeNonASCII($string);
+$unescaped = Unescape($string);
 
 Have fun ~
