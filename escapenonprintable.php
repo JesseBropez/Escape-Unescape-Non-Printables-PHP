@@ -12,7 +12,7 @@ function Escape($string) //escapes non-printables to \x[a-f0-9]{2}
   return $string;
 }
 
-function Unescape($string)
+function Unescape($string) //unescapes \x[a-f0-9]{2}
 {
   $unescape = preg_replace_callback('/\\\\x([a-f0-9]{2})/',
   function ($m)
